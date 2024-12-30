@@ -20,6 +20,9 @@ public static void main(String[] args) {
     String nomeCompleto = "Raphael" + "Martins";
     System.out.println(nomeCompleto);
 
+
+    // ===================================================================================
+
     //Operador Unários
 
     //Esses operadores são aplicados juntamente com um outro operador aritmético.
@@ -32,8 +35,13 @@ public static void main(String[] args) {
     // (!) Operador unário lógico de negação - nega o valor de uma expressão booleana.
     // Exemplos abaixo:
 
+    // ===================================================================================
 
+    int numeros = 5;
 
+    numeros = numeros - 3;
+    System.out.println(numeros);
+    
     }
     
 }

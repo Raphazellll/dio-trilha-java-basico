@@ -14,7 +14,7 @@ public class tiposVariaveis {
 // double: usado para armazenar números de ponto flutuante (decimais).
 // boolean: usado para armazenar valores booleanos (true ou false).
 // char: usado para armazenar caracteres individuais.
-// String: usado para armazenar sequências de caracteres.🚀
+// String: usado para armazenar sequências de caracteres.
 
 //Regras para Nomes de Variáveis:
 //Em Java, existem algumas regras para nomear variáveis:
