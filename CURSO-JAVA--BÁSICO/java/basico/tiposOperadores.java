@@ -32,9 +32,7 @@ public static void main(String[] args) {
     // (!) Operador unário lógico de negação - nega o valor de uma expressão booleana.
     // Exemplos abaixo:
 
-    int numero = 5;
-    
-    System.out.println(numero);
+
 
     }
     
