@@ -65,8 +65,69 @@ int a, b;
     String resultado = a==b ?"verdadeiro" : "falso"; 
 //uma outra maneira de usar o if, só que compactado.
     System.out.println(resultado);
-    
 
-    }
+
+// ===================================================================================
+
+/* Operadores relacionais.
+    os operadores relacionais avaliam a relação entre duas variáveis ou expressões.
+    Neste cado, mais precisamente, definem-se o operando à esquerda é igual, diferente,
+    menor ou igual. maior ou maior ou igual ao da direita, retornando um valor booleando como resultado
+
+    * == Quando desejamos verificar se uma variável é IGUAL A outra.
+    * != Quando desejamos verificar se uma variável é DIFERENTE da outra.
+    * >  Quando desejamos verificar se uma variável é MAIOR QUE a outra.
+    * <  Quando desejamos verificar se uma variável é MENOR QUE a outra.
+    * >= Quando desejamos verificar se uma variável é MAIOR OU IGUAL a outra.
+    * <= Quando desejamos verificar se uma variável é MENOR OU IGUAL a outra.
+ */
+
+     int numero1 = 1;
+     int numero2 = 2;
+
+        if(numero1 < numero2) { //true
+            System.out.println("a nossa condição é verdadeira");
+        }
+
+        boolean simNao = numero1 == numero2; //false
+        System.out.println("numero1 É IGUAL a numero2? " + simNao);
+
+        simNao = numero1 != numero2; //true
+        System.out.println("numero1 é DIFERENTE DE numero2? " + simNao);
+
+        simNao = numero1 > numero2; //false
+        System.out.println("numero1 é MAIOR QUE numero2? " + simNao);
+
+
+    String nomeUm = "RAPHAEL";
+    String nomeDois = "RAPHAEL";
+
+          System.out.println(nomeUm == nomeDois);  
+
+
+// ===================================================================================
+
+/*Operadores Lógicos
+        Os operadores lógicos representam o recurso que nos permite criar expressões lógicas
+        maiores a partir da junção de duas ou mais expressões.
+
+    * && Operador Lógico "E"
+    * || Operador Lógico "OU"
+
+ */
+
+
     
+    boolean condicao1 = true;
+    boolean condicao2 = false;
+
+    if( condicao1 && condicao2 ){
+        System.out.println("As duas condições são verdadeiras");
+    }
+    if( condicao1 || condicao2 ){
+        System.out.println("Uma das condições são verdadeiras");
+    }
+
+    System.out.println("Fim.");
+}
 }
