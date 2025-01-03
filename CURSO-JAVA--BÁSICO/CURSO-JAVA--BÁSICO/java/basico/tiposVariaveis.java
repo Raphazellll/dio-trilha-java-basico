@@ -3,11 +3,13 @@ public class tiposVariaveis {
     public static void main(String[] args) throws Exception {
         
 
+        /* 
         int idade = 25;
         double salario = 1500.50;
         boolean isEstudante = true;
         char genero = 'M';
-        String nome = "João";
+        String nome = "João"; 
+        */
 
 
 // int: usado para armazenar números inteiros.
