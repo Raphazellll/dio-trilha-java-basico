@@ -18,6 +18,7 @@ public class SmartTv {
     public void diminuirVolume(){
         volume--; /*volume = volume -1*/
     }
+    /*============================================================================================ */
     public void ligar(){
         ligada = true;   
     }
@@ -25,6 +26,7 @@ public class SmartTv {
     public void desligar(){
         ligada=false;
     }
+    /*============================================================================================ */
 
     public void mudarCanal(int novoCanal){
         canal = novoCanal;
@@ -36,7 +38,7 @@ public class SmartTv {
     public void diminuirCanal(){
         canal--;
     }
-    
+    /*============================================================================================ */
     
 
 }

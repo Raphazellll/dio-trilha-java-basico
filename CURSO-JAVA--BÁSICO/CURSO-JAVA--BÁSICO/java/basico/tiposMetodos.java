@@ -1,4 +1,3 @@
-package basico;
 
 public class tiposMetodos {
     

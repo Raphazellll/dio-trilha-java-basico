@@ -1,4 +1,4 @@
-package basico;
+
 
 public class tiposOperadores {
 
